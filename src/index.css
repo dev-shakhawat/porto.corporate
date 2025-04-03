@@ -28,7 +28,7 @@
 }
 
 .cmnBtn{
-  @apply  text-primary font-bold text-[12px] leading-[18px] py-2 px-6 rounded-[3px] uppercase;
+  @apply  text-primary font-bold text-[12px] leading-[18px]  rounded-[3px] uppercase;
 }
 
 

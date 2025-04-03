@@ -26,6 +26,7 @@ const Support = () => {
             <div className="grid grid-cols-2 gap-14  ">
                 {supportItem.map((item , index) => <Suppoetitm boxstyle={item.id % 2 !== 0 && " flex-row-reverse text-right  " } key={index} icon={item.icon} title={item.title} text={item.text}/> )}
             </div>
+            <div className="flex justify-center mt-10  "> <a href='#' className='cmnBtn bg-brand text-white py-4 px-10   '>Learn more</a></div>
         </div>
     </div>
   )
