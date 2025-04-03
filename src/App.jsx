@@ -1,5 +1,6 @@
 import Banner from "./components/Banner"
 import Brands from "./components/Brands"
+import Footer from "./components/Footer"
 import Navbar from "./components/Navbar"
 import Support from "./components/Support"
 import Team from "./components/Team"
@@ -16,6 +17,7 @@ function App() {
     <WhoWr/>
     <Team/>
     <Brands/>
+    <Footer/>
     </>
   )
 }
